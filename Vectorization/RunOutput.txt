@@ -1,0 +1,22 @@
+CPU Frequency 1.8 GHz
+
+Run 0: Baseline
+
+
+Frame proc. time (ms): last 3.3189 (min 3.0241, avg. 3.1378, max 3.4369)
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.139 MB perf.data (3339 samples) ]
+
+Run 1: Vectorizing find_chroma_matches
+
+Frame proc. time (ms): last 0.4582 (min 0.4529, avg. 0.4765, max 0.6147)
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.064 MB perf.data (1383 samples) ]
+
+Top 5 Functions
+
+- memcpy (69.62%)
+- find_chroma_matches (25.24%)
+- Draw_Line (0.5%)
+- NA 
+- NA
